@@ -133,7 +133,7 @@ const wave = async () => {
   } else {
     waveText = (<div>
       <div className="inputContainer">
-        <textarea className="textarea" id="waveMessage" placeholder="Write me a message..." cols="75" rows="5"></textarea>
+        <textarea className="textarea" id="waveMessage" placeholder="Write me a message! Your message will be recorded on the blockchain and then displayed on the screen.(give it a few moments 😃)" cols="75" rows="5"></textarea>
 
         {/*
           * If there is no current wallet, then render this button
